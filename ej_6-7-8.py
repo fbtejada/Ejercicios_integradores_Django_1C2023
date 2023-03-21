@@ -152,5 +152,5 @@ class CuentaJoven(Cuenta):
 
 
 print("\nPrueba clase Cuenta Joven")
-cuenta_joven1 = Cuenta(persona1,1000,10)
+cuenta_joven1 = CuentaJoven(persona1,1000,10)
 cuenta_joven1.mostrar()
